@@ -4,7 +4,7 @@
 
 import * as THREE from 'three'
 
-ShaderPass = function ( shader, textureID ) {
+export const ShaderPass = function ( shader, textureID ) {
 
 	this.textureID = ( textureID !== undefined ) ? textureID : "tDiffuse";
 

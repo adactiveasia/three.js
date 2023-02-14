@@ -6,7 +6,7 @@
  * https://github.com/evanw/glfx.js
  */
 
-SepiaShader = {
+export const SepiaShader = {
 
 	uniforms: {
 
